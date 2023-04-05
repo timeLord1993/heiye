@@ -1,0 +1,26 @@
+.base-video-container {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .video-box {
+    width: 100%;
+    #video-node {
+      width: 100%;
+    }
+  }
+  .fix-control {
+    position: absolute;
+    bottom: 200px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .fix-control-item {
+      margin-top: 60px;
+    }
+  }
+}

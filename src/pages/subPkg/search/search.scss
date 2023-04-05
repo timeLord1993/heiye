@@ -1,0 +1,13 @@
+@import "../../../styles/common.scss";
+
+.search-wrapper {
+  width: 100vw;
+  height: 100vh;
+  .history {
+    @include base-wrapper;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}

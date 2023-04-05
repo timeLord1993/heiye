@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.view-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 3px 3px #ededed;
+  border-radis: $base-radius;
+  overflow: hidden;
+  .view-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+    .view-card-title {
+      font-size: $f-30;
+      color: $c-title;
+      padding: 12px;
+    }
+    .view-card-desc {
+      font-size: $f-24;
+      color: $c-desc;
+      padding: 12px;
+      padding-top: 0;
+    }
+  }
+}

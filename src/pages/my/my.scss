@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+@import "../../styles/common.scss";
+
+.my-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  .wrapper-outlit {
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    @include base-wrapper;
+    .user {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .name {
+        font-size: $f-30;
+        color: $c-title;
+      }
+      .level {
+        font-size: $f-24;
+        color: $c-desc;
+      }
+    }
+  }
+  .links {
+    margin: 0 auto;
+    margin-top: 20px;
+    @include base-wrapper;
+  }
+}

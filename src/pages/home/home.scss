@@ -1,0 +1,46 @@
+@import "../../styles/variables.scss";
+.home-search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  .content {
+    width: 92%;
+    display: flex;
+    padding: 18px;
+    align-items: center;
+    .placeholder {
+      padding: 4px 18px;
+      flex: 1;
+      margin-left: 18px;
+      line-height: 60px;
+      border-radius: 25px;
+      background-color: #f0f0f0;
+      color: #aaaaaa;
+    }
+  }
+}
+.home-wrapper {
+  margin: 0 auto;
+  .home-swiper {
+    width: 95%;
+    border-radis: $base-radius;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .home-scroll-view {
+    margin-top: 20px;
+    .content {
+      width: 95%;
+      padding: 8px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      .content-card {
+        grid-row-start: auto;
+        height: 100%;
+      }
+    }
+  }
+}
